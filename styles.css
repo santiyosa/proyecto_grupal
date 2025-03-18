@@ -1,0 +1,80 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos del cuadro de login */
+.login-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 182, 0);
+    text-align: center;
+}
+
+/* Estilos del logo */
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos del título */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos de los campos de texto */
+.textbox {
+    margin-bottom: 15px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos del botón */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos del texto de pie de página */
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
